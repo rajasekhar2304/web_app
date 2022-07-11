@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var port = 8090;
+var port = 80;
 
 app.get('/', function (req, res) {
     html = fs.readFileSync('index.html');
